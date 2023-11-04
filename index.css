@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading-con {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 100;
+  font-size: 13px;
+  color: black;
+}
+
+.bg-con {
+  background-image: url("https://res.cloudinary.com/dxslfmoiw/image/upload/v1698996141/pngwing.com_dz1esl.png");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.head {
+  margin: 20px;
+
+  line-height: 1.5;
+}
+
+body {
+  margin: 0px;
+}
+
+.img-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  width: 60%;
+}
+
+.final {
+  background-image: transparent;
+  color: white;
+  text-align: center;
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.second-con {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card-con {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  box-shadow: 0px 0px 0px 1px yellow;
+  width: 600px;
+}
+
+.content-con {
+  text-align: center;
+
+  padding: 20px;
+}
+.content-con h1 {
+  color: rgb(236, 10, 10);
+}
+
+.p-3 {
+  background-color: black;
+  color: white;
+  line-height: 1.8;
+}
+
+.span {
+  text-decoration: line-through;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.free {
+  color: red;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.secure-btn {
+  padding: 13px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-color: transparent;
+  background-color: brown;
+  color: white;
+}
+
+.partners-container {
+  min-height: 120px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: rgb(221, 87, 87);
+  background-image: transparent;
+}
+
+.partners-container i {
+  font-size: 60px;
+  margin: 20px;
+  color: white;
+}
+
+.what-you-learn-con {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+
+  background-color: rgb(104, 93, 93);
+  padding: 20px;
+}
+
+.host-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+
+  padding-top: 50px;
+}
+
+.mentor-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-1 {
+  margin: 10px;
+  width: 360px;
+}
+
+.mentor-content {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.div-2 {
+  margin: 10px;
+  width: 360px;
+}
+
+.div-3 {
+  margin: 10px;
+  width: 360px;
+}
+
+.m-img-con {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-con {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img--1 {
+  width: 50%;
+}
+
+.foot-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1;
+}
+
+.foot-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.foot-c {
+  padding: 20px;
+}
+
+.copyright {
+  color: white;
+}
+
+.right {
+  padding-top: 60px;
+}
+
+#login-modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  display: none;
+  align-items: center;
+}
+
+.login-form {
+  color: black;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal {
+  background: #e6ecf0;
+  padding: 10px 0p 20px 0;
+  border-radius: 10px;
+  width: 450px;
+  text-align: center;
+}
+
+.top-form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-form .close-modal {
+  cursor: pointer;
+  color: black;
+  padding: 0 20px;
+
+  font-size: 20px;
+}
+
+.form-input label {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 13%;
+  font-weight: bold;
+}
+
+.login-form h2 {
+  letter-spacing: 2px;
+  margin-top: 10px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.login-form form input {
+  width: 75%;
+  margin-bottom: 20px;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  border: 1px solid #d0d5d8;
+  border-radius: 3px;
+}
+
+.login-form button {
+  padding: 12px 0;
+  width: 75%;
+  background: #5dca88;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
